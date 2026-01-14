@@ -1,0 +1,469 @@
+{
+  "mobiles": [
+    {
+      "id": "MOB001",
+      "name": "Galaxy S23",
+      "brand": "Samsung",
+      "price": 74999,
+      "rating": 4.6,
+      "stock": 25,
+      "description": "Flagship smartphone with AMOLED display and high-end camera",
+      "image": "https://source.unsplash.com/600x600/?samsung-smartphone"
+    },
+    {
+      "id": "MOB002",
+      "name": "iPhone 14",
+      "brand": "Apple",
+      "price": 79999,
+      "rating": 4.7,
+      "stock": 18,
+      "description": "Premium iOS smartphone with A15 Bionic chip",
+      "image": "https://source.unsplash.com/600x600/?iphone"
+    },
+    {
+      "id": "MOB003",
+      "name": "Pixel 7",
+      "brand": "Google",
+      "price": 59999,
+      "rating": 4.5,
+      "stock": 20,
+      "description": "Clean Android experience with advanced AI camera features",
+      "image": "https://source.unsplash.com/600x600/?google-pixel-phone"
+    },
+    {
+      "id": "MOB004",
+      "name": "OnePlus 11",
+      "brand": "OnePlus",
+      "price": 56999,
+      "rating": 4.4,
+      "stock": 22,
+      "description": "Fast performance with Snapdragon processor",
+      "image": "https://source.unsplash.com/600x600/?oneplus-phone"
+    },
+    {
+      "id": "MOB005",
+      "name": "Redmi Note 12",
+      "brand": "Xiaomi",
+      "price": 18999,
+      "rating": 4.2,
+      "stock": 40,
+      "description": "Budget-friendly phone with solid battery life",
+      "image": "https://source.unsplash.com/600x600/?xiaomi-smartphone"
+    },
+    {
+      "id": "MOB006",
+      "name": "Realme GT Neo",
+      "brand": "Realme",
+      "price": 22999,
+      "rating": 4.1,
+      "stock": 30,
+      "description": "Affordable gaming-focused smartphone",
+      "image": "https://source.unsplash.com/600x600/?realme-phone"
+    },
+    {
+      "id": "MOB007",
+      "name": "Vivo V27",
+      "brand": "Vivo",
+      "price": 32999,
+      "rating": 4.3,
+      "stock": 28,
+      "description": "Stylish smartphone with strong camera performance",
+      "image": "https://source.unsplash.com/600x600/?vivo-smartphone"
+    },
+    {
+      "id": "MOB008",
+      "name": "Oppo Reno 8",
+      "brand": "Oppo",
+      "price": 35999,
+      "rating": 4.2,
+      "stock": 24,
+      "description": "Sleek design with fast charging",
+      "image": "https://source.unsplash.com/600x600/?oppo-phone"
+    },
+    {
+      "id": "MOB009",
+      "name": "iQOO Neo 7",
+      "brand": "iQOO",
+      "price": 29999,
+      "rating": 4.4,
+      "stock": 26,
+      "description": "High-performance phone for gamers",
+      "image": "https://source.unsplash.com/600x600/?gaming-smartphone"
+    },
+    {
+      "id": "MOB010",
+      "name": "Motorola Edge 40",
+      "brand": "Motorola",
+      "price": 27999,
+      "rating": 4.1,
+      "stock": 19,
+      "description": "Clean UI with curved display",
+      "image": "https://source.unsplash.com/600x600/?motorola-phone"
+    }
+  ],
+
+  "toys": [
+    {
+      "id": "TOY001",
+      "name": "Remote Control Car",
+      "price": 1499,
+      "rating": 4.3,
+      "stock": 50,
+      "ageGroup": "6+",
+      "description": "High-speed RC car with rechargeable battery",
+      "image": "https://source.unsplash.com/600x600/?remote-control-car"
+    },
+    {
+      "id": "TOY002",
+      "name": "Building Blocks Set",
+      "price": 999,
+      "rating": 4.6,
+      "stock": 60,
+      "ageGroup": "3+",
+      "description": "Creative blocks for early learning",
+      "image": "https://source.unsplash.com/600x600/?kids-building-blocks"
+    },
+    {
+      "id": "TOY003",
+      "name": "Teddy Bear",
+      "price": 799,
+      "rating": 4.5,
+      "stock": 35,
+      "ageGroup": "All",
+      "description": "Soft plush teddy bear",
+      "image": "https://source.unsplash.com/600x600/?teddy-bear-toy"
+    },
+    {
+      "id": "TOY004",
+      "name": "Toy Train Set",
+      "price": 1999,
+      "rating": 4.4,
+      "stock": 20,
+      "ageGroup": "5+",
+      "description": "Battery-operated toy train with tracks",
+      "image": "https://source.unsplash.com/600x600/?toy-train"
+    },
+    {
+      "id": "TOY005",
+      "name": "Puzzle Game",
+      "price": 499,
+      "rating": 4.2,
+      "stock": 45,
+      "ageGroup": "6+",
+      "description": "Mind-stimulating puzzle set",
+      "image": "https://source.unsplash.com/600x600/?kids-puzzle"
+    },
+    {
+      "id": "TOY006",
+      "name": "Action Figure",
+      "price": 899,
+      "rating": 4.1,
+      "stock": 38,
+      "ageGroup": "7+",
+      "description": "Superhero action figure",
+      "image": "https://source.unsplash.com/600x600/?action-figure-toy"
+    },
+    {
+      "id": "TOY007",
+      "name": "Doll House",
+      "price": 2499,
+      "rating": 4.5,
+      "stock": 15,
+      "ageGroup": "4+",
+      "description": "Miniature doll house with furniture",
+      "image": "https://source.unsplash.com/600x600/?doll-house"
+    },
+    {
+      "id": "TOY008",
+      "name": "Soft Ball Set",
+      "price": 299,
+      "rating": 4.0,
+      "stock": 70,
+      "ageGroup": "3+",
+      "description": "Colorful soft balls for kids",
+      "image": "https://source.unsplash.com/600x600/?soft-ball-toy"
+    },
+    {
+      "id": "TOY009",
+      "name": "Musical Keyboard",
+      "price": 1799,
+      "rating": 4.3,
+      "stock": 22,
+      "ageGroup": "5+",
+      "description": "Electronic keyboard with multiple tones",
+      "image": "https://source.unsplash.com/600x600/?kids-keyboard-toy"
+    },
+    {
+      "id": "TOY010",
+      "name": "Drone Toy",
+      "price": 2999,
+      "rating": 4.2,
+      "stock": 12,
+      "ageGroup": "10+",
+      "description": "Beginner-friendly toy drone",
+      "image": "https://source.unsplash.com/600x600/?toy-drone"
+    }
+  ],
+
+  "fashion": [
+    {
+      "id": "FAS001",
+      "name": "Men Cotton T-Shirt",
+      "price": 799,
+      "rating": 4.2,
+      "stock": 50,
+      "size": ["S", "M", "L", "XL"],
+      "image": "https://source.unsplash.com/600x600/?mens-tshirt"
+    },
+    {
+      "id": "FAS002",
+      "name": "Women Casual Dress",
+      "price": 1599,
+      "rating": 4.4,
+      "stock": 30,
+      "size": ["S", "M", "L"],
+      "image": "https://source.unsplash.com/600x600/?women-casual-dress"
+    },
+    {
+      "id": "FAS003",
+      "name": "Men Denim Jeans",
+      "price": 1999,
+      "rating": 4.3,
+      "stock": 40,
+      "size": ["30", "32", "34", "36"],
+      "image": "https://source.unsplash.com/600x600/?denim-jeans"
+    },
+    {
+      "id": "FAS004",
+      "name": "Women Handbag",
+      "price": 2499,
+      "rating": 4.5,
+      "stock": 25,
+      "image": "https://source.unsplash.com/600x600/?women-handbag"
+    },
+    {
+      "id": "FAS005",
+      "name": "Men Formal Shirt",
+      "price": 1499,
+      "rating": 4.2,
+      "stock": 35,
+      "image": "https://source.unsplash.com/600x600/?formal-shirt"
+    },
+    {
+      "id": "FAS006",
+      "name": "Women Sandals",
+      "price": 1299,
+      "rating": 4.1,
+      "stock": 28,
+      "image": "https://source.unsplash.com/600x600/?women-sandals"
+    },
+    {
+      "id": "FAS007",
+      "name": "Men Sneakers",
+      "price": 2999,
+      "rating": 4.6,
+      "stock": 20,
+      "image": "https://source.unsplash.com/600x600/?men-sneakers"
+    },
+    {
+      "id": "FAS008",
+      "name": "Women Kurti",
+      "price": 1199,
+      "rating": 4.3,
+      "stock": 32,
+      "image": "https://source.unsplash.com/600x600/?women-kurti"
+    },
+    {
+      "id": "FAS009",
+      "name": "Men Jacket",
+      "price": 3499,
+      "rating": 4.4,
+      "stock": 18,
+      "image": "https://source.unsplash.com/600x600/?men-jacket"
+    },
+    {
+      "id": "FAS010",
+      "name": "Women Scarf",
+      "price": 499,
+      "rating": 4.0,
+      "stock": 45,
+      "image": "https://source.unsplash.com/600x600/?fashion-scarf"
+    }
+  ],
+
+  "electronics": [
+    {
+      "id": "ELE001",
+      "name": "Wireless Headphones",
+      "price": 2999,
+      "rating": 4.4,
+      "stock": 35,
+      "image": "https://source.unsplash.com/600x600/?wireless-headphones"
+    },
+    {
+      "id": "ELE002",
+      "name": "Bluetooth Speaker",
+      "price": 1999,
+      "rating": 4.3,
+      "stock": 40,
+      "image": "https://source.unsplash.com/600x600/?bluetooth-speaker"
+    },
+    {
+      "id": "ELE003",
+      "name": "Smart Watch",
+      "price": 3999,
+      "rating": 4.2,
+      "stock": 28,
+      "image": "https://source.unsplash.com/600x600/?smartwatch"
+    },
+    {
+      "id": "ELE004",
+      "name": "Laptop Backpack",
+      "price": 1499,
+      "rating": 4.1,
+      "stock": 50,
+      "image": "https://source.unsplash.com/600x600/?laptop-backpack"
+    },
+    {
+      "id": "ELE005",
+      "name": "USB Power Bank",
+      "price": 1799,
+      "rating": 4.3,
+      "stock": 45,
+      "image": "https://source.unsplash.com/600x600/?power-bank"
+    },
+    {
+      "id": "ELE006",
+      "name": "Mechanical Keyboard",
+      "price": 4999,
+      "rating": 4.6,
+      "stock": 15,
+      "image": "https://source.unsplash.com/600x600/?mechanical-keyboard"
+    },
+    {
+      "id": "ELE007",
+      "name": "Wireless Mouse",
+      "price": 899,
+      "rating": 4.2,
+      "stock": 60,
+      "image": "https://source.unsplash.com/600x600/?wireless-mouse"
+    },
+    {
+      "id": "ELE008",
+      "name": "LED Desk Lamp",
+      "price": 1299,
+      "rating": 4.1,
+      "stock": 38,
+      "image": "https://source.unsplash.com/600x600/?desk-lamp"
+    },
+    {
+      "id": "ELE009",
+      "name": "Webcam HD",
+      "price": 2199,
+      "rating": 4.0,
+      "stock": 22,
+      "image": "https://source.unsplash.com/600x600/?webcam"
+    },
+    {
+      "id": "ELE010",
+      "name": "External Hard Drive",
+      "price": 5999,
+      "rating": 4.5,
+      "stock": 12,
+      "image": "https://source.unsplash.com/600x600/?external-hard-drive"
+    }
+  ],
+
+  "books": [
+    {
+      "id": "BK001",
+      "name": "Atomic Habits",
+      "author": "James Clear",
+      "price": 499,
+      "rating": 4.8,
+      "stock": 40,
+      "image": "https://source.unsplash.com/600x600/?self-help-book"
+    },
+    {
+      "id": "BK002",
+      "name": "Rich Dad Poor Dad",
+      "author": "Robert Kiyosaki",
+      "price": 399,
+      "rating": 4.6,
+      "stock": 35,
+      "image": "https://source.unsplash.com/600x600/?finance-book"
+    },
+    {
+      "id": "BK003",
+      "name": "The Alchemist",
+      "author": "Paulo Coelho",
+      "price": 349,
+      "rating": 4.7,
+      "stock": 30,
+      "image": "https://source.unsplash.com/600x600/?novel-book"
+    },
+    {
+      "id": "BK004",
+      "name": "Think and Grow Rich",
+      "author": "Napoleon Hill",
+      "price": 299,
+      "rating": 4.5,
+      "stock": 25,
+      "image": "https://source.unsplash.com/600x600/?business-book"
+    },
+    {
+      "id": "BK005",
+      "name": "Deep Work",
+      "author": "Cal Newport",
+      "price": 450,
+      "rating": 4.6,
+      "stock": 20,
+      "image": "https://source.unsplash.com/600x600/?productivity-book"
+    },
+    {
+      "id": "BK006",
+      "name": "Clean Code",
+      "author": "Robert C. Martin",
+      "price": 699,
+      "rating": 4.7,
+      "stock": 18,
+      "image": "https://source.unsplash.com/600x600/?programming-book"
+    },
+    {
+      "id": "BK007",
+      "name": "Ikigai",
+      "author": "Héctor García",
+      "price": 399,
+      "rating": 4.4,
+      "stock": 28,
+      "image": "https://source.unsplash.com/600x600/?inspirational-book"
+    },
+    {
+      "id": "BK008",
+      "name": "Psychology of Money",
+      "author": "Morgan Housel",
+      "price": 499,
+      "rating": 4.7,
+      "stock": 22,
+      "image": "https://source.unsplash.com/600x600/?psychology-book"
+    },
+    {
+      "id": "BK009",
+      "name": "The Power of Habit",
+      "author": "Charles Duhigg",
+      "price": 450,
+      "rating": 4.5,
+      "stock": 26,
+      "image": "https://source.unsplash.com/600x600/?habit-book"
+    },
+    {
+      "id": "BK010",
+      "name": "Start With Why",
+      "author": "Simon Sinek",
+      "price": 399,
+      "rating": 4.4,
+      "stock": 24,
+      "image": "https://source.unsplash.com/600x600/?leadership-book"
+    }
+  ]
+}
