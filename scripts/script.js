@@ -1,28 +1,79 @@
+const myCart = [];
+
+const toggleTheme = () => {
+    const pageBody = document.getElementById("page-body");
+    const toggleButton = document.getElementById("theme-toggle");
+
+    pageBody.classList.toggle("dark");
+
+    toggleButton.textContent = pageBody.classList.value == "dark" ? "☀️" : "🌙";
+};
+
 const loadWebsite = async () => {
-    const data = await getData();
-    generateCategories(data);
+    const productsData = await getProductsData();
+    renderProductsArray(productsData);
+    const categoryHeader = document.getElementById("products-identifier");
+    categoryHeader.textContent = "All Products";
 }
 
 
-const getData = async () => {
+const getProductsData = async () => {
     const response = await fetch("./scripts/products.json");
     const data = await response.json();
-    console.log(data);
+    // console.log(data);
     return data;
 };
 
-const generateCategories = (data) => {
-    for(let category in data) {
-        console.log(category);
-        getProductData(data[category]);
-    }
+const renderProductsArray = async (productsData) => {
+    const container = document.getElementById("products-container");
+    container.innerHTML = "";
+
+    productsData.forEach(product => {
+        // console.log(product);
+        container.innerHTML += renderProduct(product);
+    });
 }
 
-const getProductData = (productsArray) => {
-    console.log(productsArray);
-    for (let product of productsArray) {
-        renderProduct(product);
+const renderProduct = (product) => {
+    // console.log("product is", product);
+    return `
+            <div class="product-card">
+                <img class="product-image" src="${product.image}" alt="${product.name}"></img>
+                <div class="product-name">${product.name}</div>
+                <div class="product-brand">${product.brand}</div>
+                <div class="product-description">${product.description}</div>
+                <div class="price-container">
+                    <div class="product-price">${product.price}</div>
+                    <div class="product-rating">${product.rating}</div>
+                </div>
+                <button class="cart-button" onclick="addToCart('${product.name}')">Add to Cart</button>
+            </div>
+    `;
+}
+
+const renderCategory = async (category) => {
+    const categoryHeader = document.getElementById("products-identifier");
+    categoryHeader.textContent = category;
+    const productsData = await getProductsData();
+    const categoryProducts = productsData.filter(product => product.category === category);
+    renderProductsArray(categoryProducts);
+}
+
+const addToCart = async (productName) => {
+    const productsData = await getProductsData();
+    const product = productsData.filter(product => product.name === productName)[0];
+
+    if (!product) {
+        return;
     }
+    
+    myCart.push(product);
+}
+
+const displayCart = () => {
+    const categoryHeader = document.getElementById("products-identifier");
+    categoryHeader.textContent = "Cart Items";
+    renderProductsArray(myCart);
 }
 
 loadWebsite();
