@@ -1,3 +1,33 @@
+:root {
+    --background: #F5F7FA;
+    --primary-text: #2D2D2D;
+    --secondary-text: #4E5D6C;
+    --surface-strong: #2D2D2D;
+    --surface-strong-text: #FFFFFF;
+    --card-bg: #FFFFFF;
+    --card-border: #2D2D2D;
+    --card-hover-bg: #EDF4FF;
+    --card-hover-text: #1F2933;
+    --button: #222934;
+    --button-text: #FFFFFF;
+    --highlight: #00A676;
+}
+
+.dark {
+    --background: #1E1E2E;
+    --primary-text: #E5E9F0;
+    --secondary-text: #A6ACCD;
+    --surface-strong: #141423;
+    --surface-strong-text: #E5E9F0;
+    --card-bg: #2A2A3D;
+    --card-border: #E5E9F0;
+    --card-hover-bg: #34345A;
+    --card-hover-text: #FFFFFF;
+    --button: #6787CC;
+    --button-text: #0F172A;
+    --highlight: #9D2AEF;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -11,8 +41,8 @@ body {
 }
 
 .page-header {
-    background-color: #2D2D2D;
-    color: white;
+    background-color: var(--surface-strong);
+    color: var(--surface-strong-text);
     padding: 1em 2em;
     display: flex;
     flex-direction: row;
@@ -28,6 +58,7 @@ body {
 .search-container input{
     height: 100%;
     width: 90%;
+    padding: 0 20px;
 }
 
 .search-container button {
@@ -63,32 +94,53 @@ body {
 
 .main-block {
     flex: 1;
-    background-color: #F5F7FA;
+    background-color: var(--background);
     padding: 10px;
 }
 
 .products-container {
-    height: 100%;
     width: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-template-rows: repeat(4, 400px);
     gap: 15px;
 }
 
 .product-card {
-    border: 1px solid black;
+    background-color: var(--background);
+    height: 400px;
+    border: 1px solid var(--card-border);
     padding: 1em;
+    border-radius: 7px;
+
 }
+
 
 .product-card img {
     width: 100%;
     height: 200px;
 }
 
+.price-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.cart-button {
+    background-color: var(--button);
+    color: var(--button-text);
+}
+
+.product-card:hover {
+    scale: 1.02;
+    transition: 0.4s;
+    background-color: var(--card-hover-bg);
+    color: var(--card-hover-text);
+}
+
 .page-footer {
-    background-color: #2D2D2D;
-    color: white;
+    background-color: var(--surface-strong);
+    color: var(--surface-strong-text);
     padding: 10px;
 }
 
