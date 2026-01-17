@@ -6,7 +6,7 @@ const toggleTheme = () => {
 
     pageBody.classList.toggle("dark");
 
-    toggleButton.textContent = pageBody.classList.value == "dark" ? "☀️" : "🌙";
+    toggleButton.textContent = pageBody.classList.value == "dark" ? "🌞" : "🌙";
 };
 
 const loadWebsite = async () => {
@@ -15,7 +15,6 @@ const loadWebsite = async () => {
     const categoryHeader = document.getElementById("products-identifier");
     categoryHeader.textContent = "All Products";
 }
-
 
 const getProductsData = async () => {
     const response = await fetch("./scripts/products.json");
@@ -59,16 +58,58 @@ const renderCategory = async (category) => {
     renderProductsArray(categoryProducts);
 }
 
+document.addEventListener("keydown", (event) => {
+    if (event.key !== "Enter") return;
+
+    if (event.target.matches("#search-input")) {
+        event.preventDefault();
+        searchItems();
+    }
+});
+
+const searchItems = async () => {
+    const searchText = document.getElementById("search-input").value;
+    const categoryHeader = document.getElementById("products-identifier");
+    categoryHeader.textContent = "Search Items";
+    const productsData = await getProductsData();
+
+    const query = searchText.trim().toLowerCase();
+    if (!query) return [];
+
+    const searchResult =  productsData.filter(product => {
+        return (
+            product.brand?.toLowerCase().includes(query) ||
+            product.name?.toLowerCase().includes(query) ||
+            product.image?.toLowerCase().includes(query) ||
+            product.category?.toLowerCase().includes(query)
+        );
+    });
+
+    renderProductsArray(searchResult);
+};
+
 const addToCart = async (productName) => {
     const productsData = await getProductsData();
-    const product = productsData.filter(product => product.name === productName)[0];
+
+    const product = productsData.find(
+        product => product.name === productName
+    );
 
     if (!product) {
         return;
     }
-    
+
+    const alreadyInCart = myCart.some(
+        item => item.name === product.name
+    );
+
+    if (alreadyInCart) {
+        return;
+    }
+
     myCart.push(product);
-}
+};
+
 
 const displayCart = () => {
     const categoryHeader = document.getElementById("products-identifier");
