@@ -6,7 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="./styles/style.css">
 </head>
-<body>
+<body id="page-body">
     <header class="page-header" id="main-header">
         <h1>Kec Shopping</h1>
 
@@ -16,22 +16,24 @@
         </div>
 
         <div class="buttons-container">
-            <button>🌙</button>
-            <button>🛒</button>
+            <button id="theme-toggle" onclick="toggleTheme()">🌙</button>
+            <button onclick="displayCart()">🛒</button>
         </div>
 
     </header>
 
     <navbar class="page-nav">
-        <a href=""><span> Mobile </span></a>
-        <a href=""><span> fashion </span></a>
-        <a href=""><span> toys </span></a>
-        <a href=""><span> electronics </span></a>
-        <a href=""><span> books </span></a>
+        <span onclick="loadWebsite()"> Home </span>
+        <span onclick="renderCategory('mobiles')"> Mobile </span>
+        <span onclick="renderCategory('fashion')"> fashion </span>
+        <span onclick="renderCategory('toys')"> toys </span>
+        <span onclick="renderCategory('electronics')"> electronics </span>
+        <span onclick="renderCategory('books')"> books </span>
     </navbar>
 
 
     <main class="main-block">
+        <h1 id="products-identifier"></h1>
         <div class="products-container" id="products-container">
 
         </div>
