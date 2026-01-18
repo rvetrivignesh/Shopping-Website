@@ -2,7 +2,7 @@
   {
     "brand": "Samsung",
     "name": "Galaxy S23",
-    "image": "../assets/images/mobiles/Galaxy S23.jfif",
+    "image": "assets/images/mobiles/Galaxy S23.jfif",
     "category": "mobiles",
     "price": 74999,
     "rating": 4.6,
@@ -11,7 +11,7 @@
   {
     "brand": "Apple",
     "name": "iPhone 14",
-    "image": "../assets/images/mobiles/iphone 14.webp",
+    "image": "assets/images/mobiles/iphone 14.webp",
     "category": "mobiles",
     "price": 79999,
     "rating": 4.7,
@@ -20,7 +20,7 @@
   {
     "brand": "Google",
     "name": "Pixel 7",
-    "image": "../assets/images/mobiles/pixel 7.jfif",
+    "image": "assets/images/mobiles/pixel 7.jfif",
     "category": "mobiles",
     "price": 59999,
     "rating": 4.5,
@@ -29,7 +29,7 @@
   {
     "brand": "OnePlus",
     "name": "OnePlus 11",
-    "image": "../assets/images/mobiles/Oneplus 11.png",
+    "image": "assets/images/mobiles/Oneplus 11.png",
     "category": "mobiles",
     "price": 56999,
     "rating": 4.4,
@@ -38,7 +38,7 @@
   {
     "brand": "Xiaomi",
     "name": "Redmi Note 12",
-    "image": "../assets/images/mobiles/Redmi Note 12.webp",
+    "image": "assets/images/mobiles/Redmi Note 12.webp",
     "category": "mobiles",
     "price": 18999,
     "rating": 4.2,
@@ -47,7 +47,7 @@
   {
     "brand": "Realme",
     "name": "Realme GT Neo",
-    "image": "../assets/images/mobiles/Realme GT Neo.webp",
+    "image": "assets/images/mobiles/Realme GT Neo.webp",
     "category": "mobiles",
     "price": 22999,
     "rating": 4.1,
@@ -56,7 +56,7 @@
   {
     "brand": "Vivo",
     "name": "Vivo V27",
-    "image": "../assets/images/mobiles/Vivo V27.webp",
+    "image": "assets/images/mobiles/Vivo V27.webp",
     "category": "mobiles",
     "price": 32999,
     "rating": 4.3,
@@ -65,7 +65,7 @@
   {
     "brand": "Oppo",
     "name": "Oppo Reno 8",
-    "image": "../assets/images/mobiles/Oppo Reno 8.webp",
+    "image": "assets/images/mobiles/Oppo Reno 8.webp",
     "category": "mobiles",
     "price": 35999,
     "rating": 4.2,
@@ -74,7 +74,7 @@
   {
     "brand": "iQOO",
     "name": "iQOO Neo 7",
-    "image": "../assets/images/mobiles/iQOO Neo 7.png",
+    "image": "assets/images/mobiles/iQOO Neo 7.png",
     "category": "mobiles",
     "price": 29999,
     "rating": 4.4,
@@ -83,7 +83,7 @@
   {
     "brand": "Motorola",
     "name": "Edge 40",
-    "image": "../assets/images/mobiles/Edge 40.webp",
+    "image": "assets/images/mobiles/Edge 40.webp",
     "category": "mobiles",
     "price": 27999,
     "rating": 4.1,
@@ -92,7 +92,7 @@
   {
     "brand": "ToyFun",
     "name": "Remote Control Car",
-    "image": "../assets/images/toys/Remote Control Car.jfif",
+    "image": "assets/images/toys/Remote Control Car.jfif",
     "category": "toys",
     "price": 1499,
     "rating": 4.3,
@@ -101,7 +101,7 @@
   {
     "brand": "Kiddo",
     "name": "Building Blocks Set",
-    "image": "../assets/images/toys/Building Blocks Set.jpg",
+    "image": "assets/images/toys/Building Blocks Set.jpg",
     "category": "toys",
     "price": 999,
     "rating": 4.6,
@@ -110,7 +110,7 @@
   {
     "brand": "SoftJoy",
     "name": "Teddy Bear",
-    "image": "../assets/images/toys/Teddy Bear.webp",
+    "image": "assets/images/toys/Teddy Bear.webp",
     "category": "toys",
     "price": 799,
     "rating": 4.5,
@@ -119,7 +119,7 @@
   {
     "brand": "PlayTime",
     "name": "Toy Train Set",
-    "image": "../assets/images/toys/Toy Train Set.jpg",
+    "image": "assets/images/toys/Toy Train Set.jpg",
     "category": "toys",
     "price": 1999,
     "rating": 4.4,
@@ -128,7 +128,7 @@
   {
     "brand": "Brainy",
     "name": "Puzzle Game",
-    "image": "../assets/images/toys/Puzzle Game.jpg",
+    "image": "assets/images/toys/Puzzle Game.jpg",
     "category": "toys",
     "price": 499,
     "rating": 4.2,
@@ -137,7 +137,7 @@
   {
     "brand": "HeroPlay",
     "name": "Action Figure",
-    "image": "../assets/images/toys/Action Figure.jpg",
+    "image": "assets/images/toys/Action Figure.jpg",
     "category": "toys",
     "price": 899,
     "rating": 4.1,
@@ -146,7 +146,7 @@
   {
     "brand": "DreamHome",
     "name": "Doll House",
-    "image": "../assets/images/toys/Doll House.jpg",
+    "image": "assets/images/toys/Doll House.jpg",
     "category": "toys",
     "price": 2499,
     "rating": 4.5,
@@ -155,7 +155,7 @@
   {
     "brand": "FunKids",
     "name": "Soft Ball Set",
-    "image": "../assets/images/toys/Soft Ball Set.webp",
+    "image": "assets/images/toys/Soft Ball Set.webp",
     "category": "toys",
     "price": 299,
     "rating": 4.0,
@@ -164,7 +164,7 @@
   {
     "brand": "MusicPlay",
     "name": "Musical Keyboard",
-    "image": "../assets/images/toys/Musical Keyboard.jpg",
+    "image": "assets/images/toys/Musical Keyboard.jpg",
     "category": "toys",
     "price": 1799,
     "rating": 4.3,
@@ -173,7 +173,7 @@
   {
     "brand": "SkyPlay",
     "name": "Toy Drone",
-    "image": "../assets/images/toys/Toy Drone.webp",
+    "image": "assets/images/toys/Toy Drone.webp",
     "category": "toys",
     "price": 2999,
     "rating": 4.2,
@@ -182,7 +182,7 @@
   {
     "brand": "UrbanWear",
     "name": "Men Cotton T-Shirt",
-    "image": "../assets/images/fashion/Men Cotton T-Shirt.webp",
+    "image": "assets/images/fashion/Men Cotton T-Shirt.webp",
     "category": "fashion",
     "price": 799,
     "rating": 4.2,
@@ -191,7 +191,7 @@
   {
     "brand": "StyleHub",
     "name": "Women Casual Dress",
-    "image": "../assets/images/fashion/Women Casual Dress.jpg",
+    "image": "assets/images/fashion/Women Casual Dress.jpg",
     "category": "fashion",
     "price": 1599,
     "rating": 4.4,
@@ -200,7 +200,7 @@
   {
     "brand": "DenimCo",
     "name": "Men Denim Jeans",
-    "image": "../assets/images/fashion/Men Denim Jeans.jpg",
+    "image": "assets/images/fashion/Men Denim Jeans.jpg",
     "category": "fashion",
     "price": 1999,
     "rating": 4.3,
@@ -209,7 +209,7 @@
   {
     "brand": "Fashionista",
     "name": "Women Handbag",
-    "image": "../assets/images/fashion/Women Handbag.jpg",
+    "image": "assets/images/fashion/Women Handbag.jpg",
     "category": "fashion",
     "price": 2499,
     "rating": 4.5,
@@ -218,7 +218,7 @@
   {
     "brand": "FormalsPro",
     "name": "Men Formal Shirt",
-    "image": "../assets/images/fashion/Men Formal Shirt.webp",
+    "image": "assets/images/fashion/Men Formal Shirt.webp",
     "category": "fashion",
     "price": 1499,
     "rating": 4.2,
@@ -227,7 +227,7 @@
   {
     "brand": "FootStyle",
     "name": "Women Sandals",
-    "image": "../assets/images/fashion/Women Sandals.webp",
+    "image": "assets/images/fashion/Women Sandals.webp",
     "category": "fashion",
     "price": 1299,
     "rating": 4.1,
@@ -236,7 +236,7 @@
   {
     "brand": "SneakerX",
     "name": "Men Sneakers",
-    "image": "../assets/images/fashion/Men Sneakers.webp",
+    "image": "assets/images/fashion/Men Sneakers.webp",
     "category": "fashion",
     "price": 2999,
     "rating": 4.6,
@@ -245,7 +245,7 @@
   {
     "brand": "Ethniq",
     "name": "Women Kurti",
-    "image": "../assets/images/fashion/Women Kurti.webp",
+    "image": "assets/images/fashion/Women Kurti.webp",
     "category": "fashion",
     "price": 1199,
     "rating": 4.3,
@@ -254,7 +254,7 @@
   {
     "brand": "WinterWear",
     "name": "Men Jacket",
-    "image": "../assets/images/fashion/Men Jacket.avif",
+    "image": "assets/images/fashion/Men Jacket.avif",
     "category": "fashion",
     "price": 3499,
     "rating": 4.4,
@@ -263,7 +263,7 @@
   {
     "brand": "StyleLite",
     "name": "Women Scarf",
-    "image": "../assets/images/fashion/Women Scarf.webp",
+    "image": "assets/images/fashion/Women Scarf.webp",
     "category": "fashion",
     "price": 499,
     "rating": 4.0,
@@ -272,7 +272,7 @@
   {
     "brand": "SoundMax",
     "name": "Wireless Headphones",
-    "image": "../assets/images/electronics/Wireless Headphones.jpg",
+    "image": "assets/images/electronics/Wireless Headphones.jpg",
     "category": "electronics",
     "price": 2999,
     "rating": 4.4,
@@ -281,7 +281,7 @@
   {
     "brand": "TechBeat",
     "name": "Bluetooth Speaker",
-    "image": "../assets/images/electronics/Bluetooth Speaker.jpg",
+    "image": "assets/images/electronics/Bluetooth Speaker.jpg",
     "category": "electronics",
     "price": 1999,
     "rating": 4.3,
@@ -290,7 +290,7 @@
   {
     "brand": "WristTech",
     "name": "Smart Watch",
-    "image": "../assets/images/electronics/Smart Watch.webp",
+    "image": "assets/images/electronics/Smart Watch.webp",
     "category": "electronics",
     "price": 3999,
     "rating": 4.2,
@@ -299,7 +299,7 @@
   {
     "brand": "CarryPro",
     "name": "Laptop Backpack",
-    "image": "../assets/images/electronics/Laptop Backpack.jfif",
+    "image": "assets/images/electronics/Laptop Backpack.jfif",
     "category": "electronics",
     "price": 1499,
     "rating": 4.1,
@@ -308,7 +308,7 @@
   {
     "brand": "PowerPlus",
     "name": "USB Power Bank",
-    "image": "../assets/images/electronics/USB Power Bank.jpg",
+    "image": "assets/images/electronics/USB Power Bank.jpg",
     "category": "electronics",
     "price": 1799,
     "rating": 4.3,
@@ -317,7 +317,7 @@
   {
     "brand": "KeyTech",
     "name": "Mechanical Keyboard",
-    "image": "../assets/images/electronics/Mechanical Keyboard.jpg",
+    "image": "assets/images/electronics/Mechanical Keyboard.jpg",
     "category": "electronics",
     "price": 4999,
     "rating": 4.6,
@@ -326,7 +326,7 @@
   {
     "brand": "ClickPro",
     "name": "Wireless Mouse",
-    "image": "../assets/images/electronics/Wireless Mouse.jpg",
+    "image": "assets/images/electronics/Wireless Mouse.jpg",
     "category": "electronics",
     "price": 899,
     "rating": 4.2,
@@ -335,7 +335,7 @@
   {
     "brand": "BrightLite",
     "name": "LED Desk Lamp",
-    "image": "../assets/images/electronics/LED Desk Lamp.jpg",
+    "image": "assets/images/electronics/LED Desk Lamp.jpg",
     "category": "electronics",
     "price": 1299,
     "rating": 4.1,
@@ -344,7 +344,7 @@
   {
     "brand": "VisionTech",
     "name": "HD Webcam",
-    "image": "../assets/images/electronics/HD Webcam.jpg",
+    "image": "assets/images/electronics/HD Webcam.jpg",
     "category": "electronics",
     "price": 2199,
     "rating": 4.0,
@@ -353,7 +353,7 @@
   {
     "brand": "DataSafe",
     "name": "External Hard Drive",
-    "image": "../assets/images/electronics/External Hard Drive.webp",
+    "image": "assets/images/electronics/External Hard Drive.webp",
     "category": "electronics",
     "price": 5999,
     "rating": 4.5,
@@ -362,7 +362,7 @@
   {
     "brand": "James Clear",
     "name": "Atomic Habits",
-    "image": "../assets/images/books/Atomic Habits.jpg",
+    "image": "assets/images/books/Atomic Habits.jpg",
     "category": "books",
     "price": 499,
     "rating": 4.8,
@@ -371,7 +371,7 @@
   {
     "brand": "Robert Kiyosaki",
     "name": "Rich Dad Poor Dad",
-    "image": "../assets/images/books/Rich Dad Poor Dad.jpg",
+    "image": "assets/images/books/Rich Dad Poor Dad.jpg",
     "category": "books",
     "price": 399,
     "rating": 4.6,
@@ -380,7 +380,7 @@
   {
     "brand": "Paulo Coelho",
     "name": "The Alchemist",
-    "image": "../assets/images/books/The Alchemist.jpg",
+    "image": "assets/images/books/The Alchemist.jpg",
     "category": "books",
     "price": 349,
     "rating": 4.7,
@@ -389,7 +389,7 @@
   {
     "brand": "Napoleon Hill",
     "name": "Think and Grow Rich",
-    "image": "../assets/images/books/Think and Grow Rich.jpg",
+    "image": "assets/images/books/Think and Grow Rich.jpg",
     "category": "books",
     "price": 299,
     "rating": 4.5,
@@ -398,7 +398,7 @@
   {
     "brand": "Cal Newport",
     "name": "Deep Work",
-    "image": "../assets/images/books/Deep Work.jpg",
+    "image": "assets/images/books/Deep Work.jpg",
     "category": "books",
     "price": 450,
     "rating": 4.6,
@@ -407,7 +407,7 @@
   {
     "brand": "Robert C. Martin",
     "name": "Clean Code",
-    "image": "../assets/images/books/Clean Code.jpg",
+    "image": "assets/images/books/Clean Code.jpg",
     "category": "books",
     "price": 699,
     "rating": 4.7,
@@ -416,7 +416,7 @@
   {
     "brand": "Héctor García",
     "name": "Ikigai",
-    "image": "../assets/images/books/Ikigai.jfif",
+    "image": "assets/images/books/Ikigai.jfif",
     "category": "books",
     "price": 399,
     "rating": 4.4,
@@ -425,7 +425,7 @@
   {
     "brand": "Morgan Housel",
     "name": "Psychology of Money",
-    "image": "../assets/images/books/Psychology of Money.jpg",
+    "image": "assets/images/books/Psychology of Money.jpg",
     "category": "books",
     "price": 499,
     "rating": 4.7,
@@ -434,7 +434,7 @@
   {
     "brand": "Charles Duhigg",
     "name": "The Power of Habit",
-    "image": "../assets/images/books/The Power of Habit.jpg",
+    "image": "assets/images/books/The Power of Habit.jpg",
     "category": "books",
     "price": 450,
     "rating": 4.5,
@@ -443,7 +443,7 @@
   {
     "brand": "Simon Sinek",
     "name": "Start With Why",
-    "image": "../assets/images/books/Start With Why.jpg",
+    "image": "assets/images/books/Start With Why.jpg",
     "category": "books",
     "price": 399,
     "rating": 4.4,
