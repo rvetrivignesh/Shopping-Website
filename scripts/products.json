@@ -11,7 +11,7 @@
   {
     "brand": "Apple",
     "name": "iPhone 14",
-    "image": "assets/images/mobiles/iphone 14.webp",
+    "image": "assets/images/mobiles/iPhone 14.jpg",
     "category": "mobiles",
     "price": 79999,
     "rating": 4.7,
@@ -20,7 +20,7 @@
   {
     "brand": "Google",
     "name": "Pixel 7",
-    "image": "assets/images/mobiles/pixel 7.jfif",
+    "image": "assets/images/mobiles/Pixel 7.jpg",
     "category": "mobiles",
     "price": 59999,
     "rating": 4.5,
@@ -29,7 +29,7 @@
   {
     "brand": "OnePlus",
     "name": "OnePlus 11",
-    "image": "assets/images/mobiles/Oneplus 11.png",
+    "image": "assets/images/mobiles/OnePlus 11.jpg",
     "category": "mobiles",
     "price": 56999,
     "rating": 4.4,
