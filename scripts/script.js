@@ -84,7 +84,7 @@ const searchItems = async () => {
             product.category?.toLowerCase().includes(query)
         );
     });
-
+    document.getElementById("search-input").value = "";
     renderProductsArray(searchResult);
 };
 
